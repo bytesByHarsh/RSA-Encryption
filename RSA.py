@@ -1,6 +1,5 @@
 import math
 
-
 def prime_check(number1,number2):
     
     for i in range(2,int(math.sqrt(max(number1,number2)))):
@@ -38,8 +37,6 @@ def decrypt(base,n,d):
 
     return c
 
-
-
 def main():
     p,q,phi,n,d,e=0,0,0,0,0,0
     p = int(input("P:"))
@@ -70,23 +67,5 @@ def main():
             dec=chr(decrypt(enc,n,d))
             print("Encrypt:",enc,"\n","Decrypt:",dec)
 
-
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
